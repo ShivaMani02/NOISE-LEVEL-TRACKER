@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+	<head>
+		<title>NOISE LEVEL TRACKER</title>
+		<style>
+		</style>
+		<!-- Include the volume meter component -->
+		<script src="volume-meter.js"></script>
+		<!-- Include the main app logic -->
+		<script src="main.js"></script>
+		<style>
+			body > div{
+				position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+				font-family: Arial, Helvetica, sans-serif;
+
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+				flex-direction: column;
+			}
+		</style>
+	</head>
+	<body>
+	<div>
+		<h1>NOISE LEVEL TRACKER</h1>
+		<p><button onclick="startMeter();" style="margin: 10px; padding: 10px 40px; color: black; background-color: yellow; border-radius: 10px; " >Start</button></p><br>
+		<canvas id="meter" width="400" height="40"></canvas>
+		<p  style="translate: -90px; color: rgb(194, 20, 20);">↑Level 1  ↑Level 2 ↑Level 3 </p>
+
+		<br> <br><br><br>
+		Project by - Shivansh Vasu
+		
+	</div>
+	
+</pre>
+	</body>
+</html>
